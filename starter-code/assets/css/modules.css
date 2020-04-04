@@ -1,0 +1,238 @@
+/* Basic */
+body {
+	background: rgb(241, 196, 196);
+	color: rgb(48, 5, 5);
+}
+input, textarea, select {
+	color: #888;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(68, 16, 16);
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: inherit;
+}
+
+	h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+		color: #333;
+    }
+
+	h2.alt {
+		color: #888;
+	}
+
+		h2.alt strong {
+			color: #666;
+		}
+
+
+strong, b {
+	color: #666;
+}
+
+em, i {
+	font-style: italic;
+}
+
+a {
+	color: inherit;
+}
+
+	a:hover {
+		color: #E27689;
+		border-bottom-color: rgba(255, 255, 255, 0);
+    }
+    
+/* Image */
+
+.image.avatar48 {
+    background: black;
+}
+
+/* Form */
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.75);
+}
+
+	form input[type="text"]:focus,
+	form input[type="email"]:focus,
+	form input[type="password"]:focus,
+	form select:focus,
+	form textarea:focus {
+	
+		background: #fff;
+	}
+
+
+
+form ::-webkit-input-placeholder {
+	color: #555 !important;
+}
+
+form :-moz-placeholder {
+	color: #555 !important;
+}
+
+form ::-moz-placeholder {
+	color: #555 !important;
+}
+
+form :-ms-input-placeholder {
+	color: #555 !important;
+}
+
+/* Table */
+
+	table tbody tr:nth-child(2n+2) {
+		background: #f4f4f4;
+	}
+
+	table th {
+		color: #fff;
+		background: #222729 url("images/overlay.png");
+	}
+
+	table thead {
+		background: #444;
+		color: #fff;
+	}
+
+	table tfoot {
+		background: #eee;
+    }
+    
+/* Button */
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+	color: #fff !important;
+	background-color: #8ebebc;
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+}
+
+	input[type="button"]:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	button:hover,
+	.button:hover {
+		background-color: #9ececc;
+	}
+
+	input[type="button"]:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	button:active,
+	.button:active {
+		background-color: #7eaeac;
+    }
+    
+/* Item */
+
+	.item header {
+		background: #fff;
+    }
+    
+/* Header */
+
+#header {
+	background: #331826 url("images/overlay.png");
+	color: rgb(247, 225, 225);
+}
+	#header .icons a {
+			color: #41484c;
+		}
+
+			#header .icons a:hover {
+				color: #fff;
+			}
+
+	#logo h1 {
+		color: #fff;
+	}
+
+	#logo p {
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+
+		#nav ul li a {
+		
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+			#nav ul li a span:before {
+					color: #41484c;
+				}
+
+			#nav ul li a.active {
+				background: rgba(0, 0, 0, 0.15);
+				color: #fff;
+			}
+
+				#nav ul li a.active span:before {
+					color: #e27689;
+				}
+
+
+/* Footer */
+
+#footer {
+	background-color: #dce3e2;
+}
+
+
+/* Main */
+
+	#main > section {
+		background-image: url("images/overlay.png");
+	}
+
+		#main > section.dark {
+			color: #ddd;
+			color: rgba(255, 255, 255, 0.75);
+		}
+
+			#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+				color: inherit;
+			}
+
+			#main > section.dark strong {
+				color: #fff;
+				border-color: inherit;
+			}
+
+			#main > section.dark a {
+				color: #fff;
+				border-color: inherit;
+			}
+
+		#main > section.one {
+			background-color: #81918E;
+			background-image: url("../../images/banner.jpg");
+		}
+
+		#main > section.two {
+			background-color: #f5fafa;
+		}
+
+		#main > section.three {
+			background-color: #ecf1f1;
+		}
+
+		#main > section.four {
+			background-color: #e8edec;
+		}
